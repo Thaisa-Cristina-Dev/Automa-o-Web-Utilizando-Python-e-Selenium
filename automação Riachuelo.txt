@@ -1,0 +1,7 @@
+from selenium import webdriver
+​
+navegador = webdriver.Chrome()
+​
+navegador.get("https://ri.riachuelo.com.br/show.aspx?idCanal=Jeb/254h+NVF66/ke1iGng==")
+navegador.find_element_by_xpath('//*[@id="submenu-3"]')
+navegador.find_element_by_xpath('//*[@id="ipveR0sfNwZ5PAsknsN92A=="]').click()
